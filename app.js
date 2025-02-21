@@ -41,3 +41,27 @@ function actualizarListaAmigos() {
     }
     console.log(nombresAmigos);
 }
+
+//Función para sortear un amigo
+function sortearAmigo() {
+    // Filtrar amigos no deshabilitados
+    const amigosDisponibles = nombresAmigos.filter(amigo => !amigo.deshabilitado);
+
+    // Validar si hay amigos
+    if (amigosDisponibles.length === 0) {
+        alert('No hay amigos disponibles para sortear.');
+        return;
+    }
+
+    // Generar índice aleatorio
+    const indiceAleatorio = Math.floor(Math.random() * amigosDisponibles.length);
+    const amigoSeleccionado = amigosDisponibles[indiceAleatorio];
+    
+    // Mostrar resultado
+    document.getElementById('resultado').innerHTML = 
+        `El amigo sorteado es: <strong>${amigoSeleccionado.nombre}</strong>`;
+
+    amigoSeleccionado.deshabilitado = true;
+    actualizarListaAmigos();
+
+}
