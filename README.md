@@ -49,7 +49,7 @@ Aplicación web para gestionar una lista de amigos y sortear uno de manera aleat
 ### Tecnologías Utilizadas 💻
 
 - **HTML5:** Define la estructura y semántica de la aplicación.
-- **CSS3:** Proporciona la estilización básica y responsive.
+- **CSS:** Proporciona la estilización básica y responsive.
 - **JavaScript:** Implementa la manipulación del DOM y la lógica interactiva.
 
 ## Principales Funciones del Código
@@ -70,24 +70,6 @@ Aplicación web para gestionar una lista de amigos y sortear uno de manera aleat
    - Ejemplo de resultado: "El amigo sorteado es: Ana".
    - La lista se actualizará; una vez que se hayan seleccionado todos los amigos, aparecerá un aviso indicando que no quedan más amigos disponibles para sortear.
 
-## Contribuciones 🤝
-
-¡Las contribuciones son bienvenidas! Si deseas colaborar:
-
-1. Realiza un *fork* del repositorio.
-2. Crea una rama para tu nueva funcionalidad:
-   ```bash
-   git checkout -b nueva-funcionalidad
-   ````
-3. Realiza tus cambios y haz commit:
-   ````bash
-   git commit -m "Agrega nueva funcionalidad"
-   ````
-4. Sube tus cambios a tu fork:
-   ````bash
-   git push origin nueva-funcionalidad
-   ````
-5. Abre un Pull Request para revisar e integrar tus aportes.
 
 ## Contacto ✉️
 
